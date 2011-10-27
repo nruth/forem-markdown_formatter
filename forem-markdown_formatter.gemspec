@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Nicholas Rutherford"]
   s.email       = ["nick.rutherford@gmail.com"]
   s.homepage    = "https://github.com/nruth/forem-markdown_formatter"
-  s.summary     = %q{Markdown formatting for forem posts}
-  s.description = %q{Replaces the forem Rails engine's default formatting with Markdown}
+  s.summary     = %q{Redcarpet Markdown formatting for forem posts}
+  s.description = %q{Replaces the forem Rails engine's default formatting with Redcarpet Markdown}
 
   s.rubyforge_project = "forem-markdown_formatter"
 
