@@ -7,6 +7,10 @@ module Forem
         formatter = ::Redcarpet::Markdown.new(::Redcarpet::Render::HTML)
         formatter.render(ERB::Util.h(text)).html_safe
       end
+
+      def self.blockquote(text)
+         "> #{text.gsub(/\n/, "\n> ")}
+      end
     end
   end
 end
