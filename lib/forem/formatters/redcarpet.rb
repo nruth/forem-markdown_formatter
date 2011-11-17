@@ -9,7 +9,7 @@ module Forem
       end
 
       def self.blockquote(text)
-         "> #{text.gsub(/\n/, "\n> ")}
+         "> #{text.gsub(/\n/, "\n> ")}\n\n"
       end
     end
   end
